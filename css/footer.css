@@ -1,0 +1,103 @@
+.footer__group {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 98px 17px 100px 24px;
+}
+.footer__group-first {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+}
+.footer__group-first-title h3 {
+    font: 600 2.5rem 'main';
+    padding-bottom: 31px;
+}
+.footer__group-first-img img {
+    max-width: 300px;
+    height: auto;
+    padding-bottom: 30px;
+}
+.footer__group-first-specialized {
+    max-width: 80px;
+    height: auto;
+    padding-bottom: 11px;
+}
+.footer__group-first-desc {
+    font: 400 1.254rem 'main';
+    line-height: 30px;
+    max-width: 291px;
+    padding-bottom: 20px;
+}
+.footer__group-first-more a {
+    font: 600 1.26rem 'main';
+    transition: all ease-in-out 0.3s;
+}
+.footer__group-first-more a:hover {
+    color: grey;
+}
+.footer__group-list a {
+    color: black;
+}
+.footer__group a{
+    color: black;
+    max-width: 175px;
+}
+.footer__group-second {
+    padding-left: 85px;
+}
+.footer__group-tree {
+    padding-left: 58px;
+}
+.footer__group-title {
+    font: 600 1.24rem 'main';
+    padding-bottom: 16px;
+}
+.footer__group-list {
+    font: 400 0.96rem 'main';
+    line-height: 30px;
+}
+.footer__group-list ul {
+    max-width: 193px;
+}
+.candidates {
+    line-height: 15px;
+    padding-top: 8px;
+}
+.footer__border {
+    border-top: 1px solid black;
+}
+
+
+.footer__document-left {
+    display: flex;
+}
+.footer__document-right {
+    display: flex;
+    flex-direction: column;
+}
+.footer__document-group {
+    padding: 54px 101px 43px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__document-right-year {
+    font: 400 0.75rem 'main';
+    padding-bottom: 3px;
+}
+.footer__document-right-reserved a{
+    font: 400 0.75rem 'main';
+    color: black;
+}
+.footer__document-left-logo {
+    padding-right: 13px;
+}
+.footer__document-left-desc {
+    max-width: 301px;
+}
+.footer__document-left-desc a{
+    color: black;
+    font: 400 0.75rem 'main';
+    max-width: 301px;
+    line-height: 15px;
+}
